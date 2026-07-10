@@ -1,0 +1,11 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only — no personal names.
+{:ooyake-id "gov.chl"
+  :official-url "https://www.gob.cl/"
+  :name-en "Chile"
+  :wikidata "Q298"
+  :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+  :contact-page "https://www.wikidata.org/wiki/Q2887"
+  :sourced-from "com-etzhayyim-ooyake gov-units (verbatim where present)"
+  :hq {:line-en "Santiago" :country "chl" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q2887" :last-verified "2026-06-04" :sourcing "authoritative"}
+}
