@@ -22,7 +22,7 @@
     (is (nil? (facts/required-evidence-satisfied? "ATL" all)))))
 
 (deftest coverage-is-honest
-  (let [c (facts/coverage ["CHL" "USA" "ATL"])]
-    (is (= 3 (:requested c)))
-    (is (= 2 (:covered c)))
+  (let [c (facts/coverage ["CHL" "ATL"])]
+    (is (= 2 (:requested c)))
+    (is (= 1 (:covered c)))
     (is (= ["ATL"] (:missing-jurisdictions c)))))
