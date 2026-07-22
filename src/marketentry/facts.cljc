@@ -11,13 +11,7 @@
           :rep-provenance "https://www.mercadopublico.cl/"
           :corporate-number-owner-authority "SII / Registro de Comercio"
           :corporate-number-legal-basis "RUT"
-          :corporate-number-provenance "https://www.sii.cl/"}
-   "USA" {:name "United States" :owner-authority "GSA/SAM.gov" :legal-basis "FAR" :national-spec "SAM.gov" :provenance "https://sam.gov/"
-          :required-evidence ["EIN record" "SAM.gov registration record" "State business registration record" "SAM UEI verification record"]}
-   "COL" {:name "Colombia" :owner-authority "SECOP II" :legal-basis "Ley 80" :national-spec "SECOP II" :provenance "https://www.colombiacompra.gov.co/"
-          :required-evidence ["NIT record" "SECOP II registration" "RUES extract" "Authorized-representative record"]}
-   "PER" {:name "Peru" :owner-authority "OSCE/SEACE" :legal-basis "Ley de Contrataciones" :national-spec "SEACE" :provenance "https://www.seace.gob.pe/"
-          :required-evidence ["RUC record" "SEACE registration" "SUNAT extract" "Authorized-representative record"]}})
+          :corporate-number-provenance "https://www.sii.cl/"}})
 
 (defn spec-basis [iso3] (get catalog iso3))
 (defn coverage
