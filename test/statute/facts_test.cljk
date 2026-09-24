@@ -1,5 +1,5 @@
 (ns statute.facts-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [statute.facts :as facts]))
 
 (deftest chl-has-spec-basis
